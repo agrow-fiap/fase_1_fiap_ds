@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84A4EE2F-1C15-3B64-0631-85D95402578C" name="MC_SGV_ESTADO">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>A76215E6-DFBF-1CE7-D251-B1C8D28129DC</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sg_estado" id="8CCC4D33-79EC-5527-768F-EEC17F848100">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>959C731E-AF46-8248-1D0E-6978C8D8FBCE</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="4FE087B7-1140-BA76-C38A-8F14B9AD94E0">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do estado]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do estado]]></commentInRDBMS>
+<generatorID>F3F3CF53-F191-7967-425A-162699F585D8</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB288462-0A88-8816-952E-45EDC4208F9F" name="PK_MC_ESTADO">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>9A03B92D-C407-F9FF-9213-96645D255204</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CCC4D33-79EC-5527-768F-EEC17F848100"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4839A40-A8C6-02BA-01F3-63B1B20AECD7" name="MC_SGV_CLIENTE">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>A94DD468-FCDE-D980-6308-E308A05A69DF</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cliente" id="B6917385-545D-885B-6E6F-C450C5975952">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório, único e preenchido a parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></commentInRDBMS>
+<generatorID>790F633F-1F4A-75B6-8FB9-DFB60E26D3CF</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="4E2183CB-06A9-2D87-5B7F-9E72333DD1F3">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o nome do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o nome do cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório.]]></commentInRDBMS>
+<generatorID>EC10E648-0DB1-070C-DF14-E2BAA58BE23B</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_estrelas_cliente" id="56E96FF5-0CFE-8973-94E8-FCE76FEFE3DD">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a quantiade de estrelas do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório e ser possível de estar entre 1 e 5 estrelas.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a quantiade de estrelas do cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório e ser possível de estar entre 1 e 5 estrelas.]]></commentInRDBMS>
+<generatorID>487748EA-475C-22AA-A996-823214D41636</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_medio_compra_cliente" id="927ED61C-34F8-9B8F-5DB8-ADE92BE57281">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o valor  médio de gastos f eito pelo cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório e deve ser calculado diariamente.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o valor  médio de gastos f eito pelo cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório e deve ser calculado diariamente.]]></commentInRDBMS>
+<generatorID>A45DDA35-D374-C40B-59BA-45A5C82B0893</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_cliente" id="D5147B4A-C4A1-4EE7-164C-E485B8213095">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o stauts do cliente da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o status do cliente da Melhores Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></commentInRDBMS>
+<generatorID>5BC67D23-A621-6924-DBD7-A61C2B6CFB76</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email_cliente" id="F8FB9B1B-6994-160A-9B8C-86C87CD30D33">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o email  do cliente da Melhorees Compras. No minimo é esperado um email contendo o caractere (@) em seu conteúdo.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o email  do cliente da Melhorees Compras. No minimo é esperado um email contendo o caractere (@) em seu conteúdo.]]></commentInRDBMS>
+<generatorID>66B10CD2-4A4F-73AD-3823-2363147179E6</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone_cliente" id="FAD442A0-823E-2915-6C5D-45A8C8E41DBD">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o número do cliente da Melhorees Compras. A mascara de armazenamento deve ser: (<nr_ddd>) 99999-9999 e  deve ser utilizada pré definida.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o número do cliente da Melhorees Compras. A mascara de armazenamento deve ser: (<nr_ddd>) 99999-9999 e  deve ser utilizada pré definida.]]></commentInRDBMS>
+<generatorID>19F6EF88-9B46-6C18-209C-1BF97785D7E2</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_login_cliente" id="C916184B-F83C-7BEB-EA8F-4DAC210831D5">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o login de cada cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório e  único para cada cliente.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o login de cada cliente na plataforma ecommerce da Melhores Compras. Seu conteúdo deve ser obrigatório e  único para cada cliente.]]></commentInRDBMS>
+<generatorID>879D710A-68A1-A398-C2BA-FB762A4FB16B</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha_cliente" id="71701B10-4640-68AA-9962-C9348752BF75">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a senha de cada cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a senha de cada cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório.]]></commentInRDBMS>
+<generatorID>DDB68822-9316-A067-444A-D30D1BA7E229</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento_cliente" id="D7A6FE22-6359-181C-9C31-75AEF1F053DF">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a data de nascimento ou data de fundação do cliente e seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a data de nascimento ou data de fundação do cliente e seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>D0A35364-038D-1F18-4263-0F0D1A0B38C9</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_cliente" id="304B2DD2-21A0-371F-7119-9A7895AC964B">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Este atirbuto irá receber o tipo do cliente, que poderá ser PF (para pessao física) ou PJ (para pessoa jurídica).]]></comment>
+<commentInRDBMS><![CDATA[Este atirbuto irá receber o tipo do cliente, que poderá ser PF (para pessao física) ou PJ (para pessoa jurídica).]]></commentInRDBMS>
+<generatorID>D0B64219-9BC1-152D-6303-53D7900964AC</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE9EC8E8-7280-477F-9485-5F3CCEB84E53" name="PK_MC_CLIENTE">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>CC4C6C9E-ACD8-E9E2-AE49-37312B3C79F1</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6917385-545D-885B-6E6F-C450C5975952"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_MC_SGV_CLI_1" directorySegmentName="seg_0" id="1584862A-F01E-9BF7-71A7-B772E6A5975D">
+<createdBy>Gabriel</createdBy>
+<createdTime>2025-09-15 22:44:42 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<rule><![CDATA[st_cliente ='A' or st_cliente ='I' ]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_MC_SGV_CLI_2" directorySegmentName="seg_0" id="D9F1B78E-2D00-B58F-95BA-DFD448F2D305">
+<createdBy>Gabriel</createdBy>
+<createdTime>2025-09-16 18:19:19 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<rule><![CDATA[tp_cliente = 'PF' or tp_cliente = 'PJ']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

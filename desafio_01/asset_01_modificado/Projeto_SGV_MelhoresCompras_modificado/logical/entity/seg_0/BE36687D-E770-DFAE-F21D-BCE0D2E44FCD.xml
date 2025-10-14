@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE36687D-E770-DFAE-F21D-BCE0D2E44FCD" name="MC_SGV_PRODUTO">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<generatorID>0E48B727-90AE-BC11-870C-1DCFAEC8AE93</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="4E8B2EA4-21C8-60D0-31CA-89184349A070">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></commentInRDBMS>
+<generatorID>7C5C6ED1-7E54-30C0-CE0F-68E16D66953D</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cat" id="F008E569-D430-276A-1455-96EFCC43C02F">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:13:39 UTC</createdTime>
+<generatorID>7A3B9E36-A2EC-EBC0-0BF0-49E6F34BCCDC</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>3FBD7713-2641-7BD8-B3D7-166E526FB156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cd_barras_prod" id="620EBE79-6427-9EA0-F2B1-ACF2107FE5F6">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o número do codigo de barras  do produto. Seu conteúdo deve ser opcional.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o número do codigo de barras  do produto. Seu conteúdo deve ser opcional.]]></commentInRDBMS>
+<generatorID>8285CA14-212C-EF5C-A40D-5473BD263398</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_produto" id="02B6EE2F-A7C9-08B5-C179-A28E51B0BC2D">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a descrição principal do produto. Seu conteúdo deve ser  obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a descrição principal do produto. Seu conteúdo deve ser  obrigatorio.]]></commentInRDBMS>
+<generatorID>B06B20B1-7630-A5A3-CA95-7505DFCA7663</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_unitario" id="231C8E30-4A95-D70D-AE36-02BBAC041B5A">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o valor unitário do produto. Seu conteúdo deve ser > 0 ]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o valor unitário do produto. Seu conteúdo deve ser > 0 ]]></commentInRDBMS>
+<generatorID>5923E7FB-EE4E-60AD-BE6F-5B148EA328A7</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_embalagem" id="065C060A-17B3-6EDF-B8F3-1F11C011C599">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o tipo de embalagem do produto. Seu conteúdo pode ser opcional.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o tipo de embalagem do produto. Seu conteúdo pode ser opcional.]]></commentInRDBMS>
+<generatorID>1982E641-929A-5A2D-C8C5-67C657FD1FE8</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_produto" id="D027F38E-F46D-6938-1F54-ECC02FF7214D">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o stauts do produto da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o status do produto da Melhores Compras. Os valores permitidos aqui são: A(tivo), I(nativo) ou P(rospecção).]]></commentInRDBMS>
+<generatorID>E1BCBBD8-F0FF-A360-BD7D-FF7AAABD4380</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_perc_lucro" id="E618D724-A4BE-9067-986B-6F2E2FE7C584">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o percentual  do lucro médio para cada produto. Seu conteúdo deve ser opcional.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o percentual  do lucro médio para cada produto. Seu conteúdo deve ser opcional.]]></commentInRDBMS>
+<generatorID>382B91E9-C2D0-7DB6-1EA2-C007051E77E1</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_completa_prod" id="0ABE20BC-9B89-3BE0-6D37-7749A6FDB1B1">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a descrição completa do produto. Seu conteúdo deve ser  obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar a descrição completa do produto. Seu conteúdo deve ser  obrigatorio.]]></commentInRDBMS>
+<generatorID>61FA5414-8B59-B650-EE04-3A5CE61BE463</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_imposto_pago" id="C7ADAA73-1996-44CD-AD31-5FB1D0E6617F">
+<createdBy>oivla</createdBy>
+<createdTime>2025-04-12 12:48:25 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_produto" id="168938D4-5213-D0E3-E95C-B49CCD0ED4E9">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 21:01:27 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino_produto" id="A89865FE-7AB2-EA96-9266-4C9AFE21445D">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 21:02:52 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10BB7D86-05F2-9C45-6705-C190C2664CC5" name="PK_MC_PRODUTO">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:32:46 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4E8B2EA4-21C8-60D0-31CA-89184349A070</newElementsIDs>
+<usedAttributes>
+<attributeRef>4E8B2EA4-21C8-60D0-31CA-89184349A070</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_LOGRAD_END_CLI" directorySegmentName="seg_0" id="0FE4CF32-B884-5AC6-1BAE-4BD52B01D824">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 14:11:50 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<sourcePk>490101F6-FA20-E835-716E-B9E53F69DA7B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>069E7D9F-FF88-9CC6-68DC-1AD8EC602ED3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3D0D866A-12E3-C295-4C92-7A80F2B43EE4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

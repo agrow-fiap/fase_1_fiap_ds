@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF7E7D87-34D9-ED54-D4A0-57A089F412FA" containerWithKeyObject="960FE1FB-7D7C-0016-8347-DD4008E0D757" localFKIndex="7CB61847-F914-965B-2506-BE075D81A41A" name="ter4">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>DF27B652-0666-FC60-AC2A-206F3B3FB635</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<referredTableLongName>MC_SGV_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F12FEA8-41F1-6CAC-D518-A258888A61D9</referredTableID>
+<keyObject>7F1C0C15-D701-9973-D78C-B671B21299A7</keyObject>
+<referredKeyID>7F1C0C15-D701-9973-D78C-B671B21299A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

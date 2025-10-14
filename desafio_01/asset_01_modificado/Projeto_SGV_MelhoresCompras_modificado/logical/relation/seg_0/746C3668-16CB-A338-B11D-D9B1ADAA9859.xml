@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ter2" directorySegmentName="seg_0" id="746C3668-16CB-A338-B11D-D9B1ADAA9859">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 14:19:23 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<sourcePk>490101F6-FA20-E835-716E-B9E53F69DA7B</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>069E7D9F-FF88-9CC6-68DC-1AD8EC602ED3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>95C22E43-50D9-9094-EE58-42185DE903B6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="90436DE3-CB60-30F5-77EF-4F396CD17C8A" containerWithKeyObject="E6E84DFF-2E77-1537-CA1F-85ED007A03FF" localFKIndex="287E375A-78EE-7F3D-C153-F79E76249D55" name="ter3">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>F4E1EB8F-1EDD-3E34-7909-1E66AD7BA864</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<referredTableLongName>MC_SGV_BAIRRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>960FE1FB-7D7C-0016-8347-DD4008E0D757</referredTableID>
+<keyObject>0D60AFCD-3B98-FBBB-C6B8-0D0941A53C04</keyObject>
+<referredKeyID>0D60AFCD-3B98-FBBB-C6B8-0D0941A53C04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_bairro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

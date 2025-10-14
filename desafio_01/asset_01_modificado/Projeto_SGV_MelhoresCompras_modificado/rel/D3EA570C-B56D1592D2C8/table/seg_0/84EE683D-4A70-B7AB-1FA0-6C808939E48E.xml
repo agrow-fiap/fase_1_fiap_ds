@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84EE683D-4A70-B7AB-1FA0-6C808939E48E" name="MC_SGV_CLI_PF">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>64117136-1097-D94F-F911-79A2594C4208</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cliente" id="B8AC670D-7A09-E051-7847-2CD05706233A">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o código único do cliente na plataforma ecommerce da Melhores Compras.Seu conteúdo deve ser obrigatório, único e preenhcido a  parrtir da chamada de sequence  SQ_MC_CLIENTE, a qual terá sempre o número disponivel para uso.]]></comment>
+<generatorID>F55325DC-632A-8511-60BB-C7597A1BFC89</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F768863-F927-C613-1C0D-751F76E19482" referredColumn="B6917385-545D-885B-6E6F-C450C5975952"/>
+</associations>
+</Column>
+<Column name="nr_cpf_cli_pf" id="C7DBFD4E-F234-4623-19CB-34AD12010558">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo irá receber o número do CPF já com a sua respectiva máscara. Exemplo: 09.08.554-09. Seu conteúdo é opcional pois o cliente pode ser pessoa física ou juridica.]]></commentInRDBMS>
+<generatorID>609B6ACA-D6B1-EFD6-C194-B8D192028947</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6C53811-4C4D-C814-4704-E38489FD17FC" name="MC_SGV_CLI_PF_PK">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>E4D2F5C5-929F-EC71-A13C-26860CDB3097</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8AC670D-7A09-E051-7847-2CD05706233A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4AC7DAD-895E-1309-4299-5B4A452DF270" name="ser">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>632D70CF-EE4B-F72E-EE10-EBD5FD7D2C2E</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8AC670D-7A09-E051-7847-2CD05706233A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

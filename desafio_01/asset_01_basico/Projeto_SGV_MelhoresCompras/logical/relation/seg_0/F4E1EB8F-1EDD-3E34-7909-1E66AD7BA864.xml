@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_BAIRROLOGRADOURO" directorySegmentName="seg_0" id="F4E1EB8F-1EDD-3E34-7909-1E66AD7BA864">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 14:17:31 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<sourcePk>1CB283B2-B0BB-2264-0573-3A653AB2CAC5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1FDAC31-F1C1-0E82-DD59-A5A0BDFF54B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>069E7D9F-FF88-9CC6-68DC-1AD8EC602ED3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

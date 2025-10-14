@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C674CBF-C572-A745-C9E3-62C8E5A6B0BC" name="MC_SGV_VIDEO">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:35:06 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_video" id="6771D9E5-B384-3E08-7545-B3B97E2A79B7">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:46:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[	]]></commentInRDBMS>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cat" id="5A49B7A1-29FB-1C2E-4725-E3C6BC8D5575">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-10 22:39:05 UTC</createdTime>
+<generatorID>D16D8A15-F90E-3712-D3AF-BDD946E6E4EC</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>3FBD7713-2641-7BD8-B3D7-166E526FB156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="2CA78797-CDC5-4E4D-1141-CECA1456AA34">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-12 23:26:18 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar a chave primária da tabela de produtos da Melhorees Compras. A cada produto cadastrado será acionada a Sequence  SQ_MC_PRODUTO que se encarregará de gerar o próximo número único do produto.]]></comment>
+<generatorID>77E9C907-26F9-6F72-C731-39860FEDFAE4</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>4E8B2EA4-21C8-60D0-31CA-89184349A070</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_video" id="1E83161A-595E-30E5-80D2-F2BE411AE21A">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:35:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[O status do vídeo pode ser "A" (ativo), "B" (bloqueado) ou "I" (inativo).]]></commentInRDBMS>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_video" id="4A00DD37-24E3-645B-733C-2B6D0D04492F">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:53:41 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino_video" id="2A8D8D18-ECBA-2CCE-F26F-F30E886B13D3">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:53:52 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadastro_video" id="971601E3-0C06-A0E3-D910-22BB2DE3B86F">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-10 22:31:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data em que o vídeo foi cadastrado na plataforma. PROVAVELMENTE é o mesmo que o atributo "dt_inicio".]]></commentInRDBMS>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_video" id="58C28E5B-C1C9-C407-3775-8DB9E65ADFBD">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-10 22:33:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Breve descrição do vídeo.]]></commentInRDBMS>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BDB8CC6-BC6E-38AB-919B-3D2C3F40F956" name="MC_VIDEO PK">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-09 22:46:38 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6771D9E5-B384-3E08-7545-B3B97E2A79B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

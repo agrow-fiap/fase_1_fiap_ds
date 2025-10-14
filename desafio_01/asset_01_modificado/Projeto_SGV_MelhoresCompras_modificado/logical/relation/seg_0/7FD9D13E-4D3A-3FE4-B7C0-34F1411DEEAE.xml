@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="referir" directorySegmentName="seg_0" id="7FD9D13E-4D3A-3FE4-B7C0-34F1411DEEAE">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-12 00:02:37 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<sourcePk>10BB7D86-05F2-9C45-6705-C190C2664CC5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE36687D-E770-DFAE-F21D-BCE0D2E44FCD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CB91D1C8-C4BB-D998-4544-19F85419C510</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

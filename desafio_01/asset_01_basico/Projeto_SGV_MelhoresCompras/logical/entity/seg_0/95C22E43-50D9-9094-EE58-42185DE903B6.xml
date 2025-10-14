@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95C22E43-50D9-9094-EE58-42185DE903B6" name="MC_END_FUNC">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<generatorID>300518BA-B29B-2267-E52F-40C906C3EA23</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_FUNCIONARIO" id="9851F166-E1CB-6656-AFB1-EFAC1BDE9E59">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 14:19:48 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>2887F044-D92B-8B06-1CE3-B3C8184D8A05</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>2E19F20A-473D-6BFA-438B-FBB9D2246D5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_LOGRADOURO" id="28B8204F-2905-903B-47B0-81619533C985">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 14:19:23 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o código do logradouro e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>746C3668-16CB-A338-B11D-D9B1ADAA9859</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<referedAttribute>23FAB984-6110-E896-D574-482B25AB5A56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_END" id="17F39765-778C-B4B7-0062-0ED98DCBC7CA">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Número do Endereço do Cliente. O número da Rua/Localidade onde o cliente está associado.]]></comment>
+<commentInRDBMS><![CDATA[Número do Endereço do Cliente. O número da Rua/Localidade onde o cliente está associado.]]></commentInRDBMS>
+<generatorID>3B90E30E-1377-73E4-3A38-A1DB8AA0FE82</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_END" id="B543B0F4-C97C-C216-23F9-958947AD4656">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Logradouro do Cliente.]]></comment>
+<generatorID>7A4DE8B4-C38E-5F02-022F-1B8C0CC3C972</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="92D7F09A-7BE3-B5BC-05AF-318C213CFB99">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Data de início do endereço associado ao cliente.]]></comment>
+<commentInRDBMS><![CDATA[Data de início do endereço associado ao cliente.]]></commentInRDBMS>
+<generatorID>BC8CF6C5-8451-7F3A-41AE-D8C09FC60705</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="7A4D8573-8E96-867E-6AB6-3B7902A6AA53">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Data de término do endereço associado ao cliente.]]></comment>
+<commentInRDBMS><![CDATA[Data de término do endereço associado ao cliente.]]></commentInRDBMS>
+<generatorID>A33A96FF-8500-434C-BA86-22468A20EC56</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_END" id="CCEC1B0B-6EE9-0C1C-83C8-6FF7514D2512">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Status do endereço. (A)itvo ou (I)nativo.]]></comment>
+<generatorID>2AEDAAEF-ED68-A233-D5F1-88880B167395</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A722682-2744-EBF7-6B45-D48073037869" name="PK_MC_END_FUNC">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>746C3668-16CB-A338-B11D-D9B1ADAA9859,2887F044-D92B-8B06-1CE3-B3C8184D8A05</newElementsIDs>
+<usedAttributes>
+<attributeRef>28B8204F-2905-903B-47B0-81619533C985</attributeRef>
+<attributeRef>9851F166-E1CB-6656-AFB1-EFAC1BDE9E59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83714D8F-A032-DB0C-F259-73DF5A340FC2" containerWithKeyObject="D1726967-E305-8DA1-5EC3-73B5DBB002F8" localFKIndex="D0A28194-C89E-3FCF-AD01-7A122B9F7163" name="pertencer">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>0C24CFF8-BE03-5146-F878-9253F4269BB8</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<referredTableLongName>MC_SGV_DEPTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46A6BCF1-7C56-BC30-5CFE-52D95A5EC294</referredTableID>
+<keyObject>CB5D6C13-15D9-1475-3E97-DE503EBBE463</keyObject>
+<referredKeyID>CB5D6C13-15D9-1475-3E97-DE503EBBE463</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_depto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

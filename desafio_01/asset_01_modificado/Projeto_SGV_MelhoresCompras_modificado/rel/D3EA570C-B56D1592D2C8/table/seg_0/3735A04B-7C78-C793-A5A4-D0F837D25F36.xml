@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3735A04B-7C78-C793-A5A4-D0F837D25F36" name="MC_SGV_CATEGORIA">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>6EF202A3-9248-4CF2-A50B-A4D6D7C00A6F</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cat" id="C4C06F69-100D-6C61-BE61-9C670C3C7970">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>3FBD7713-2641-7BD8-B3D7-166E526FB156</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_MC_SGV_CATEGORIA_cd_cat</notNullConstraintName>
+</Column>
+<Column name="nm_cat" id="5E99350A-0CDC-34BE-0B20-D5DEF32F30E1">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>43231367-4BC3-33EC-B4CF-408B1844125D</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_MC_SGV_CATEGORIA_nm_cat</notNullConstraintName>
+</Column>
+<Column name="sg_cat" id="A176787C-1D32-096B-90B6-5AF0F583B883">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>5BF9501C-6D72-2BE0-FE3C-BCAE06E453BA</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cat" id="C0D18B14-6314-BAD6-2CB7-7C005FF49CB3">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>2A45C651-1F78-ED25-A25D-2F5090C3D723</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_MC_SGV_CATEGORIA_ds_cat</notNullConstraintName>
+</Column>
+<Column name="st_cat" id="F20944C3-72AD-F348-8768-5BABC1A2C54E">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pode ser "A" (ativo) ou "I" (inativo).]]></commentInRDBMS>
+<generatorID>E54E5FCB-8EEA-17ED-1767-E22564D6E658</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_MC_SGV_CATEGORIA_st_cat</notNullConstraintName>
+</Column>
+<Column name="dt_inicio_cat" id="71DA3352-603C-0AA0-362B-C11C4194209D">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>D27B735D-972A-BCE5-17D7-1C3563978960</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_MC_SGV_CATEGORIA_dt_ini_cat</notNullConstraintName>
+</Column>
+<Column name="dt_termino_cat" id="47EF09D3-521B-AC25-2537-B514BE63C381">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>B4B15FEF-6BBB-E161-6D36-47F0DBE20B6F</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96CBD1A6-8E84-B70C-9D8D-DEC242CB1A88" name="PK_MC_SGV_CAT">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>EF95A2F3-0D3A-817A-CACD-A2C419780E2D</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C06F69-100D-6C61-BE61-9C670C3C7970"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7E6B489-48B1-A2A4-9DD7-CBA40C4E9518" name="UN_MC_SGV_CAT">
+<createdBy>Gabriel</createdBy>
+<createdTime>2025-09-15 22:57:33 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D18B14-6314-BAD6-2CB7-7C005FF49CB3"/>
+<colUsage columnID="A176787C-1D32-096B-90B6-5AF0F583B883"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_MC_SGV_CAT" directorySegmentName="seg_0" id="18C59601-7750-5381-B4E0-AC3E8D5D5356">
+<createdBy>Gabriel</createdBy>
+<createdTime>2025-09-15 19:03:55 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<rule><![CDATA[dt_termino_cat >= dt_inicio_cat]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_MC_SGV_CAT_2" directorySegmentName="seg_0" id="1AC58B0B-3D9D-C716-483C-9162345380EE">
+<createdBy>Gabriel</createdBy>
+<createdTime>2025-09-15 22:41:45 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<rule><![CDATA[st_cat = 'A' or st_cat ='I']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

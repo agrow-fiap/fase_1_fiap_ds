@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A76215E6-DFBF-1CE7-D251-B1C8D28129DC" name="MC_SGV_ESTADO">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<generatorID>DB5BED7F-2AEF-7CEF-DFC4-5E620099C699</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sg_estado" id="959C731E-AF46-8248-1D0E-6978C8D8FBCE">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna ira receber a siga do Estado. Esse conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>52244476-C5C1-4732-1A72-E3E00701718E</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="F3F3CF53-F191-7967-425A-162699F585D8">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 13:29:39 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do estado]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do estado]]></commentInRDBMS>
+<generatorID>6C6F1CCD-F35C-2095-E99A-C5698BF7D335</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9A03B92D-C407-F9FF-9213-96645D255204" name="PK_MC_ESTADO">
+<createdBy>oivla</createdBy>
+<createdTime>2025-03-19 14:14:38 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>959C731E-AF46-8248-1D0E-6978C8D8FBCE</newElementsIDs>
+<usedAttributes>
+<attributeRef>959C731E-AF46-8248-1D0E-6978C8D8FBCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DE26260-E33D-3712-7CB5-F6037145CC4C" containerWithKeyObject="C3C02C92-325E-9DDC-B442-F6FEF76E89C8" localFKIndex="923652FA-01CD-0605-56E1-437D524AF4AD" name="classificar1">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-11 22:25:15 UTC</createdTime>
+<generatorID>D16D8A15-F90E-3712-D3AF-BDD946E6E4EC</generatorID>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<referredTableLongName>MC_SGV_CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3735A04B-7C78-C793-A5A4-D0F837D25F36</referredTableID>
+<keyObject>96CBD1A6-8E84-B70C-9D8D-DEC242CB1A88</keyObject>
+<referredKeyID>96CBD1A6-8E84-B70C-9D8D-DEC242CB1A88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

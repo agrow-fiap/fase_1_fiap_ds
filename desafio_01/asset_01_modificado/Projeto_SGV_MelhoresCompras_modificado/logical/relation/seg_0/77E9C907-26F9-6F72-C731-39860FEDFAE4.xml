@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ter" directorySegmentName="seg_0" id="77E9C907-26F9-6F72-C731-39860FEDFAE4">
+<createdBy>55119</createdBy>
+<createdTime>2025-09-12 23:26:18 UTC</createdTime>
+<ownerDesignName>Projeto_SGV_MelhoresCompras_modificado</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<sourcePk>10BB7D86-05F2-9C45-6705-C190C2664CC5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BE36687D-E770-DFAE-F21D-BCE0D2E44FCD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C674CBF-C572-A745-C9E3-62C8E5A6B0BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
