@@ -1,0 +1,11 @@
+Nota: 2,7/3
+
+Modelos Lógico e Físico: Certo. Modelagem exemplar, limpa e profissional, que implementa corretamente todas as regras de negócio, incluindo a categoria unificada, a visualização anônima e a especialização de clientes (supertipo/subtipo).
+
+Script DDL: Parcialmente Certo. O script é de altíssima qualidade em sua estrutura, implementação de constraints CHECK e UNIQUE, e uso de recursos avançados. O erro é a ausência completa de um mecanismo para gerar chaves primárias sequenciais automáticas (nem SEQUENCE, nem IDENTITY), o que é uma falha funcional que viola as regras de negócio RN04, RN07 e RN12.
+
+Evidência de Implantação SQL: Certo. Evidência perfeita que comprova a execução bem-sucedida do script e a criação de todos os objetos no banco de dados, com as tabelas visíveis no navegador de objetos.
+
+Código Python: Certo. Código de nível profissional. A lógica está correta, o código é robusto com tratamento de erros try-except, e a estrutura com loop de validação é exemplar.
+
+Evidência de Execução Python: Certo. A evidência é perfeita, com cobertura de teste completa para cenários válidos e inválidos, incluindo a rejeição de valores fora do intervalo e de entradas não numéricas.
