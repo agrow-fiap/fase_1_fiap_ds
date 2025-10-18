@@ -1,0 +1,3 @@
+proposta_desafio_2_fase_1: Classificação com Python: classificar o nível de satisfação do atendimento feito pelo SAC 
+
+O índice de satisfação de um cliente varia de 0 a 100. De acordo com os critérios estabelecidos, um atendimento de qualidade recebe notas acima de 90, o neutro está na faixa de 70 a 89 e consideramos insatisfatória qualquer nota abaixo de 70. Elabore um algoritmo em Python que classifique o nível de satisfação com base nas faixas mencionadas. O algoritmo deve receber como entrada a nota de satisfação e imprimir uma mensagem indicando se o atendimento foi de qualidade, neutro ou insatisfatório.

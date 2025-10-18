@@ -164,61 +164,6 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_inicio" id="168938D4-5213-D0E3-E95C-B49CCD0ED4E9">
-<createdBy>55119</createdBy>
-<createdTime>2025-09-09 21:01:27 UTC</createdTime>
-<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="dt_termino" id="A89865FE-7AB2-EA96-9266-4C9AFE21445D">
-<createdBy>55119</createdBy>
-<createdTime>2025-09-09 21:02:52 UTC</createdTime>
-<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_categoria" id="F008E569-D430-276A-1455-96EFCC43C02F">
-<createdBy>55119</createdBy>
-<createdTime>2025-09-09 22:13:39 UTC</createdTime>
-<generatorID>7A3B9E36-A2EC-EBC0-0BF0-49E6F34BCCDC</generatorID>
-<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<referedAttribute>3FBD7713-2641-7BD8-B3D7-166E526FB156</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_video" id="DD1E33F3-95F1-5554-B0B6-34DA2D2DAE43">
-<createdBy>55119</createdBy>
-<createdTime>2025-09-09 22:46:43 UTC</createdTime>
-<generatorID>6335F5FE-FBE8-3786-476C-62E679612A5F</generatorID>
-<ownerDesignName>Projeto_SGV_MelhoresCompras</ownerDesignName>
-<engineerTo>
-<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
-</engineerTo>
-<referedAttribute>6771D9E5-B384-3E08-7545-B3B97E2A79B7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="10BB7D86-05F2-9C45-6705-C190C2664CC5" name="PK_MC_PRODUTO">

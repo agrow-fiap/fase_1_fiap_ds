@@ -16,23 +16,21 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="069E7D9F-FF88-9CC6-68DC-1AD8EC602ED3" otype="Entity" vid="3BACAF25-C176-E42E-64E6-49C0ED217422">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1262" y="433" width="329" height="155"/>
+<bounds x="1263" y="375" width="329" height="227"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="12CADF6D-272D-58A7-B471-52B3ADCFAE3E" otype="Entity" vid="56B7AF22-7A05-AB3F-00DB-10E4C5398136">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="839" y="662" width="319" height="335"/>
+<bounds x="839" y="662" width="319" height="395"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="3CFB503D-B3A5-217A-3C3D-AA433E414659" otype="Note" vid="E72AEFD2-0962-4208-A05E-691251D36152">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="48" y="0" width="386" height="152"/>
+<bounds x="39" y="69" width="386" height="105"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-13261</backgroundColor>
 <foregroundColor>-16777216</foregroundColor>
 <comment>Projeto Lógico  Melhores Compras SGV (Sistema de Gerenciamento de Vídeos)
-
-Definições:
-MC = Melhores Compras</comment>
+</comment>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Título</foType>
@@ -44,19 +42,11 @@ MC = Melhores Compras</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3D0D866A-12E3-C295-4C92-7A80F2B43EE4" otype="Entity" vid="BF49BE6F-2FD7-B26F-4A64-4CD9CC76A43D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="878" y="169" width="325" height="158"/>
+<bounds x="837" y="372" width="325" height="232"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="48D8B16C-2AE2-D8F0-6D7C-BF73CA90211E" otype="Entity" vid="79B6E4BB-AFA2-B932-5A72-D60B29D574F7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1261" y="897" width="333" height="130"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4C674CBF-C572-A745-C9E3-62C8E5A6B0BC" otype="Entity" vid="219544A9-68FD-EF0E-99A2-0BFCE12AB9D2">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="133" y="397" width="224" height="131"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6EF202A3-9248-4CF2-A50B-A4D6D7C00A6F" otype="Entity" vid="6902CDB2-DD78-47B5-583F-DAE900E3E231">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="66" y="875" width="257" height="175"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="95C22E43-50D9-9094-EE58-42185DE903B6" otype="Entity" vid="182D5485-C1D3-BF78-7B7D-CB739E1EEBA8">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -68,19 +58,15 @@ MC = Melhores Compras</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="A94DD468-FCDE-D980-6308-E308A05A69DF" otype="Entity" vid="82C3EF2B-9276-7EE5-91C6-2ECAECF0E9B7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="857" y="371" width="313" height="247"/>
+<bounds x="471" y="367" width="313" height="247"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BE36687D-E770-DFAE-F21D-BCE0D2E44FCD" otype="Entity" vid="3DE275B4-8C91-442B-3836-BCF75FD9A48D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="39" y="585" width="375" height="227"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C409EEBB-BEA8-A6C9-BF4C-691A4AA681E9" otype="Entity" vid="961FD6BC-8170-71CF-B9E1-2E5B51DD4A3F">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="464" y="369" width="275" height="179"/>
+<bounds x="22" y="884" width="375" height="203"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CB91D1C8-C4BB-D998-4544-19F85419C510" otype="Entity" vid="A5C280D8-8C2C-E642-85A8-F2D81901A5DE">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="476" y="663" width="301" height="357"/>
+<bounds x="476" y="663" width="301" height="427"/>
 <useCustomFormat>true</useCustomFormat>
 <useDefaultColor>false</useDefaultColor>
 <backgroundColor>-10040065</backgroundColor>
@@ -126,11 +112,7 @@ MC = Melhores Compras</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E1FDAC31-F1C1-0E82-DD59-A5A0BDFF54B4" otype="Entity" vid="D91E5D02-A67C-B9E8-2A34-E39ED2964B39">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1250" y="200" width="371" height="133"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EF7F1235-046F-4F89-355E-80BF66D7964C" otype="Entity" vid="74709BA8-4762-ABD7-0DA6-A6C952F7E6C6">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="180" y="235" width="170" height="110"/>
+<bounds x="1265" y="199" width="324" height="136"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F8FB9482-D97F-46D7-D3AE-4A52BFDAA7D0" otype="Entity" vid="79E349E9-9D14-7E37-C04C-B8E3D9F36545">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -143,8 +125,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1261" y="947"/>
-<point x="1158" y="947"/>
+<point x="1261" y="962"/>
+<point x="1158" y="962"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0FE4CF32-B884-5AC6-1BAE-4BD52B01D824" otype="Relation" vid_source="3BACAF25-C176-E42E-64E6-49C0ED217422" vid_target="BF49BE6F-2FD7-B26F-4A64-4CD9CC76A43D">
@@ -152,8 +134,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1312" y="433"/>
-<point x="1156" y="327"/>
+<point x="1263" y="488"/>
+<point x="1162" y="488"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="2887F044-D92B-8B06-1CE3-B3C8184D8A05" otype="Relation" vid_source="56B7AF22-7A05-AB3F-00DB-10E4C5398136" vid_target="182D5485-C1D3-BF78-7B7D-CB739E1EEBA8">
@@ -179,17 +161,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1024" y="371"/>
-<point x="1024" y="327"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6335F5FE-FBE8-3786-476C-62E679612A5F" otype="Relation" vid_source="219544A9-68FD-EF0E-99A2-0BFCE12AB9D2" vid_target="3DE275B4-8C91-442B-3836-BCF75FD9A48D">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="245" y="528"/>
-<point x="245" y="585"/>
+<point x="784" y="488"/>
+<point x="837" y="488"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="746C3668-16CB-A338-B11D-D9B1ADAA9859" otype="Relation" vid_source="3BACAF25-C176-E42E-64E6-49C0ED217422" vid_target="182D5485-C1D3-BF78-7B7D-CB739E1EEBA8">
@@ -197,17 +170,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1426" y="588"/>
-<point x="1426" y="675"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="7A3B9E36-A2EC-EBC0-0BF0-49E6F34BCCDC" otype="Relation" vid_source="6902CDB2-DD78-47B5-583F-DAE900E3E231" vid_target="3DE275B4-8C91-442B-3836-BCF75FD9A48D">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="194" y="875"/>
-<point x="194" y="812"/>
+<point x="1427" y="602"/>
+<point x="1427" y="675"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="87D2AF43-4E14-3488-2BAC-DCBE1D002309" otype="Relation" vid_source="56B7AF22-7A05-AB3F-00DB-10E4C5398136" vid_target="56B7AF22-7A05-AB3F-00DB-10E4C5398136">
@@ -215,20 +179,11 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1158" y="997"/>
+<point x="1158" y="1008"/>
 <point x="1181" y="1008"/>
 <point x="1183" y="1094"/>
 <point x="1030" y="1095"/>
-<point x="1030" y="997"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C22B334D-0014-CFCA-75D7-6291CDF38A2C" otype="Relation" vid_source="219544A9-68FD-EF0E-99A2-0BFCE12AB9D2" vid_target="74709BA8-4762-ABD7-0DA6-A6C952F7E6C6">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="265" y="397"/>
-<point x="265" y="345"/>
+<point x="1030" y="1057"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DF27B652-0666-FC60-AC2A-206F3B3FB635" otype="Relation" vid_source="79E349E9-9D14-7E37-C04C-B8E3D9F36545" vid_target="D91E5D02-A67C-B9E8-2A34-E39ED2964B39">
@@ -236,17 +191,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1424" y="158"/>
-<point x="1424" y="200"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F4AA0C60-4370-1E78-E0D4-E50DB24FE8DF" otype="Relation" vid_source="219544A9-68FD-EF0E-99A2-0BFCE12AB9D2" vid_target="961FD6BC-8170-71CF-B9E1-2E5B51DD4A3F">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="357" y="447"/>
-<point x="464" y="447"/>
+<point x="1427" y="158"/>
+<point x="1427" y="199"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F4E1EB8F-1EDD-3E34-7909-1E66AD7BA864" otype="Relation" vid_source="D91E5D02-A67C-B9E8-2A34-E39ED2964B39" vid_target="3BACAF25-C176-E42E-64E6-49C0ED217422">
@@ -254,8 +200,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1426" y="333"/>
-<point x="1426" y="433"/>
+<point x="1427" y="335"/>
+<point x="1427" y="375"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F7580745-FF08-30F2-FD74-AC9D56279DA7" otype="Relation" vid_source="56B7AF22-7A05-AB3F-00DB-10E4C5398136" vid_target="A5C280D8-8C2C-E642-85A8-F2D81901A5DE">
@@ -263,8 +209,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="839" y="830"/>
-<point x="777" y="830"/>
+<point x="839" y="860"/>
+<point x="777" y="860"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FF8FB6F3-CD64-5D4B-9235-35F6D84DD22F" otype="Relation" vid_source="82C3EF2B-9276-7EE5-91C6-2ECAECF0E9B7" vid_target="A5C280D8-8C2C-E642-85A8-F2D81901A5DE">
@@ -272,9 +218,8 @@ MC = Melhores Compras</comment>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="857" y="602"/>
-<point x="750" y="602"/>
-<point x="750" y="663"/>
+<point x="626" y="614"/>
+<point x="626" y="663"/>
 </points>
 </Connector>
 </connectors>
